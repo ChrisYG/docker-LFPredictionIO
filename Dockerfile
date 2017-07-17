@@ -7,7 +7,7 @@ ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
 ENV PIO_ROOT /LF_PredictionIO
 
 RUN apt-get update \
-    && apt-get install -y --no-install-recommends curl openjdk-8-jdk libgfortran3 python-pip git curl \
+    && apt-get install -y --no-install-recommends curl openjdk-8-jdk libgfortran3 python-pip git curl sudo vim lsof \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
