@@ -12,6 +12,8 @@ Run shell scripts in the following order (note that if you're in Windows, make s
 
 ./run_parameters.sh will run the docker image, starting up a container in bash, with ports 7070, 8080, and 9000 open.
 
-./entrypoint.sh will run './build_base_engines.sh' to build base engines and 'pio eventserver &' to start the eventserver. 
+Then cd to the PredictionIO directory, first run ./build_base_engine.sh, then run 'pio eventserver &'.
+
+Note that PredictionIO by default is installed in at '/'. Make sure to change the environment variables if path is changed, otherwise pio command won't be recognized.
 
 
