@@ -10,6 +10,6 @@ Run shell scripts in the following order (note that if you're in Windows, make s
 
 ./build.sh will stop all running containers and build the dockerfile.
 ./run_parameters.sh will run the docker image, starting up a container in bash, with ports 7070, 8080, and 9000 open.
-./entrypoint.sh will run './build_base_engines.sh' to build base engines and 'pio eventserver &' to start the eventserver.
+./entrypoint.sh will run './build_base_engines.sh' to build base engines and 'pio eventserver &' to start the eventserver. 
 
 
