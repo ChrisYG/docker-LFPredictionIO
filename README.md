@@ -24,6 +24,7 @@ Note that PredictionIO by default is installed in at '/'. Make sure to change th
 
 Some other useful commands:
 ```docker restart <container-id>``` to restart an exited container
+
 ```docker exec -it <container-id> bash``` to run a started container in bash
 
 ### If any command happens to fail for no reason, try restarting the Docker app (an issue observed in Windows)
