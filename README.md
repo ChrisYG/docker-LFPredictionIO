@@ -16,11 +16,15 @@ This is a docker container for LF_PredictionIO so our predictive server can be u
 
 ```./run_parameters.sh``` will run the docker image, starting up a container in bash, with ports 7070, 8080, and 9000 open.
 
+*(Another entrypoint.sh might be needed, specific to LF's conventions)*
+
 Then cd to the PredictionIO directory, first run ```./build_base_engine.sh```, then run 'pio eventserver &'.
 
 Note that PredictionIO by default is installed in at '/'. Make sure to change the environment variables if path is changed, otherwise pio command won't be recognized.
 
-### If using terminal/command line only, just run the commands in the scripts in order:
+
+
+### If using terminal/command line only, just run the commands in the scripts in order
 
 Some other useful commands:
 ```docker restart <container-id>``` to restart an exited container
