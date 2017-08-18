@@ -1,0 +1,1 @@
+docker run -it -p 7070:7070 -p 8080:8080 -p 9000:9000 pio bash
